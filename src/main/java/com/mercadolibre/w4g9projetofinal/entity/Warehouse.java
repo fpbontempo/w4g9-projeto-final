@@ -1,6 +1,10 @@
 package com.mercadolibre.w4g9projetofinal.entity;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
 import org.hibernate.Hibernate;
 
 import javax.persistence.Entity;
@@ -9,6 +13,12 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.util.Objects;
 
+/***
+ * @author Rafael Menezes
+ * @author Fernando
+ * @version 1.0
+ * @since Release 01 da aplicação
+ */
 @Getter
 @Setter
 @ToString

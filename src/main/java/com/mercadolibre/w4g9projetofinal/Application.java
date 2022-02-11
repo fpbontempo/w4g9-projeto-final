@@ -9,7 +9,6 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
  */
 @SpringBootApplication
 public class Application {
-
   /** 
    * @param args command line arguments for the application.
    */
@@ -17,5 +16,4 @@ public class Application {
     ScopeUtils.calculateScopeSuffix();
     new SpringApplicationBuilder(Application.class).registerShutdownHook(true).run(args);
   }
-
 }
